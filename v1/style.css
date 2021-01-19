@@ -5,18 +5,24 @@ body {
     margin: 0px;
 }
 
-nav {
+#navigation {
     background-color: #428A60;
-    padding: 20px 00px;
+    padding: 20px 20px;
     margin: 0px;
     font-size: 16pt;
     border-bottom: 10px solid #2E6043;
-    text-align: center;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+nav {
+    /*  */
 }
 
 nav > a {
     background-color: #428A60;
-    padding: 20px 40px;
+    padding: 20px 20px;
     text-decoration: none;
     font-weight: bold;
     color: inherit;
@@ -45,9 +51,23 @@ h1 {
     font-size: 36pt;
 }
 
-#contents {
-    margin: 50px 15vw;
+.contents {
+    margin: 50px 10vw;
     padding: 10px 20px;
     background-color: #803b74;
     border-radius: 20px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(100px, 1fr));
+    grid-auto-rows: minmax(100px, auto);
+    grid-gap: 20px;
+    padding: 20px 10px;
+}
+
+.grid > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
