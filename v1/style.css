@@ -53,14 +53,14 @@ h1 {
 .contents {
     font-size: 18px;
     text-align: justify;
-    margin: 50px 15vw;
+    margin: 50px 10vw;
     padding: 10px 50px;
     background-color: #803b74;
     border-radius: 20px;
 }
 
-.comfy {
-    /* padding: 0 4em; */
+.center {
+    text-align: center;
 }
 
 .code {
@@ -71,6 +71,9 @@ h1 {
     display: grid;
     grid-template-columns: repeat(2, minmax(100px, 1fr));
     grid-auto-rows: minmax(100px, auto);
+}
+
+.image-grid {
     grid-gap: 20px;
     padding: 20px 10px;
 }
@@ -79,6 +82,10 @@ h1 {
     width: 100%;
     height: 100%;
     object-fit: cover;
+}
+
+.grid .caption {
+    text-align: center;
 }
 
 table {
