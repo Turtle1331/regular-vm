@@ -5,6 +5,7 @@
         <title>REGULAR-VM: Reference</title>
 
         <link rel="stylesheet" href="style.css">
+        <script src="script.js"></script>
     </head>
     <body>
         <div id="header">
@@ -15,30 +16,31 @@
             <nav>
                 <a href="index.html">Home</a>
                 <a href="gallery.html">Gallery</a>
-                <a href="demos.html">Demos</a>
+                <a href="demos.html" class="current">Demos</a>
                 <a href="reference.html">Reference</a>
             </nav>
         </div>
         <div class="contents">
-            <h3>Demos</h3>
+            <h3>Demos (click to play)</h3>
             <div class="grid image-grid">
-                <div>
+                <div class="video-overlay">
                     <div class="caption">Official emulator:</div>
-                    <script id="asciicast-Did5ejGaZrfeZNztOJOp3yJXQ" src="https://asciinema.org/a/Did5ejGaZrfeZNztOJOp3yJXQ.js" async></script>
+                    <div class="embed-asciicast" data-asciicast-id="Did5ejGaZrfeZNztOJOp3yJXQ"></div>
                 </div>
-                <div>
+                <div class="video-overlay">
                     <div class="caption">Official disassembler:</div>
-                    <script id="asciicast-FnWqJbZ2XytbMx02yuSG8obZS" src="https://asciinema.org/a/FnWqJbZ2XytbMx02yuSG8obZS.js" async></script>
+                    <div class="embed-asciicast" data-asciicast-id="FnWqJbZ2XytbMx02yuSG8obZS"></div>
                 </div>
-                <div>
+                <div class="video-overlay">
                     <div class="caption">regular-vm-python emulator:</div>
-                    <script id="asciicast-h38VbI2BqYq9BpyQGjY9mK9RC" src="https://asciinema.org/a/h38VbI2BqYq9BpyQGjY9mK9RC.js" async></script>
+                    <div class="embed-asciicast" data-asciicast-id="h38VbI2BqYq9BpyQGjY9mK9RC"></div>
                 </div>
-                <div>
+                <div class="video-overlay">
                     <div class="caption">regular-vm-wasm emulator:</div>
-                    <script id="asciicast-dDSNmkk9fw3mBvqY2PJoDAcEU" src="https://asciinema.org/a/dDSNmkk9fw3mBvqY2PJoDAcEU.js" async></script>
+                    <div class="embed-asciicast" data-asciicast-id="dDSNmkk9fw3mBvqY2PJoDAcEU"></div>
                 </div>
             </div>
+            <div id="videoOverlay" class="overlay"></div>
         </div>
     </body>
 </html>
