@@ -1,0 +1,214 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #412135;
+    color: #F0E4D1;
+    margin: 0px;
+}
+
+#navigation {
+    background-color: #428A60;
+    padding: 20px 20px;
+    margin: 0px;
+    font-size: 16pt;
+    border-bottom: 10px solid #2E6043;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+nav a {
+    background-color: #428A60;
+    padding: 20px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    color: inherit;
+}
+
+nav a:hover {
+    background-color: #6eaf89;
+    color: #f8f5f0;
+}
+
+nav a.current {
+    background-color: #2E6043;
+    color: #C5BCAA;
+}
+
+#header {
+    background-color: #497797;
+    text-align: center;
+    border-top: 10px solid #35566E;
+    border-bottom: 10px solid #35566E;
+}
+
+h1, h2, h3 {
+    color: white;
+    text-align: center;
+}
+
+h1, h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 10px;
+}
+
+h1 {
+    font-size: 36pt;
+}
+
+.contents {
+    font-size: 18px;
+    text-align: justify;
+    margin: 50px 10vw;
+    padding: 10px 50px;
+    background-color: #803b74;
+    border-radius: 20px;
+}
+
+.center {
+    text-align: center;
+}
+
+.code {
+    font-family: Courier, monospace;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    /* grid-auto-rows: minmax(100px, auto); */
+}
+
+.image-grid {
+    grid-gap: 20px;
+    padding: 20px 10px;
+}
+
+.grid img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.grid .caption {
+    text-align: center;
+}
+
+.overlay {
+    /* https://www.w3schools.com/howto/howto_css_overlay.asp */
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    /* bottom: 0; */
+    /* right: 0; */
+    background-color: #00000077;
+    /* z-index: 2; */
+    cursor: pointer;
+}
+
+.image-overlay, .video-overlay {
+    cursor: pointer;
+}
+
+.overlay .overlay-content {
+    /* https://css-tricks.com/centering-css-complete-guide/ */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+#imageOverlay .overlay-content {
+    cursor: default;
+}
+
+.overlay img.overlay-content {
+    width: 60vw;
+}
+
+.loading-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+
+    font-size: 48px;
+    color: #ffffff;
+}
+
+table {
+    text-align: center;
+    /* border: 1px solid white; */
+    border-spacing: 0px 5px;
+}
+
+th, td {
+    padding: 10px 5px;
+}
+
+thead tr {
+    background-color: #ffffff44;
+}
+
+tbody tr {
+    background-color: #ffffff22;
+}
+
+tbody tr:nth-child(even) {
+}
+
+table a {
+    color: #87d3f1;
+    text-decoration: none;
+}
+
+table a:hover {
+    color: #67a3bb;
+}
+
+td:first-child {
+    font-weight: bold;
+}
+
+td:nth-child(3) {
+    text-align: initial;
+}
+
+.email-success, .email-failure {
+    margin-top: 0.5em;
+    font-size: 90%;
+    font-style: italic;
+    display: none;
+}
+
+.email-success {
+    color: #00ff6a;
+}
+
+.email-failure {
+    color: #ebc23e;
+}
+
+#scrollToTop {
+    position: fixed;
+    right: 2.5vw;
+    top: 10vh;
+    display: none;
+    padding: 5px;
+    background-color: #803b74;
+    color: inherit;
+    text-decoration: none;
+    border: 1px solid #ffffff77;
+}
+
+#scrollToTop:hover {
+    background-color: #497797;
+}
