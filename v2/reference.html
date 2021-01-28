@@ -7,6 +7,7 @@
         <script src="script.js"></script>
     </head>
     <body>
+        <a id="top"></a>
         <div id="header">
             <h1>REGULAR-VM</h1>
             <h2><i>An educational instruction set architecture</i></h2>
@@ -27,7 +28,6 @@
                         Search docs:
                         <input type="text" name="searchQuery">
                     </label>
-                    <label for=""
                     <label>
                         <input type="radio" name="searchLocation" value="spec" checked="true">
                         Specification
@@ -40,10 +40,31 @@
             </div>
             <br>
             <br>
+            <br>
+            <br>
             <div class="center">
                 This site is a work in progress.
                 Stay tuned for updates!
             </div>
+            <br>
+            <div id="email" class="center">
+                <form>
+                    <label>
+                        Email address:
+                        <input type="text" name="email">
+                    </label>
+                    <label>
+                        <input type="button" name="submit" value="Register">
+                    </label>
+                </form>
+                <div class="email-success">
+                    Email successfully recorded at /dev/null
+                </div>
+                <div class="email-failure">
+                    Invalid email address
+                </div>
+            </div>
         </div>
+        <a id="scrollToTop" href="#">Scroll to top</a>
     </body>
 </html>

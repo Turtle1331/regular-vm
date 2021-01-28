@@ -86,4 +86,34 @@ document.addEventListener("DOMContentLoaded", () => {
             });
         });
     }
+
+    const emailSignup = document.querySelector("#email");
+    if (emailSignup) {
+        const emailForm = emailSignup.querySelector("form");
+        const emailSuccess = emailSignup.querySelector(".email-success");
+        const emailFailure = emailSignup.querySelector(".email-failure");
+
+        emailForm.addEventListener("submit", event => {
+            event.preventDefault();
+
+            emailSuccess.style.display = "none";
+            emailFailure.style.display = "none";
+
+            const email = emailForm.elements.email.value;
+            const response = ((email.endsWith(".edu") || email.endsWith(".com")) && email.includes("@")) ? emailSuccess : emailFailure;
+
+            setTimeout(() => {
+                response.style.display = "inline";
+            }, 100);
+
+            return false;
+        })
+    }
+
+    const scrollToTop = document.querySelector("#scrollToTop");
+    if (scrollToTop) {
+        document.addEventListener("scroll", () => {
+            scrollToTop.style.display = (window.scrollY >= 0.25 * window.innerHeight) ? "block" : "none";
+        });
+    }
 });

@@ -181,3 +181,34 @@ td:first-child {
 td:nth-child(3) {
     text-align: initial;
 }
+
+.email-success, .email-failure {
+    margin-top: 0.5em;
+    font-size: 90%;
+    font-style: italic;
+    display: none;
+}
+
+.email-success {
+    color: #00ff6a;
+}
+
+.email-failure {
+    color: #ebc23e;
+}
+
+#scrollToTop {
+    position: fixed;
+    right: 2.5vw;
+    top: 10vh;
+    display: none;
+    padding: 5px;
+    background-color: #803b74;
+    color: inherit;
+    text-decoration: none;
+    border: 1px solid #ffffff77;
+}
+
+#scrollToTop:hover {
+    background-color: #497797;
+}
