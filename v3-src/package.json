@@ -2,7 +2,7 @@
   "name": "regular-vm",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://Turtle1331.github.io/regular-vm",
+  "homepage": "https://Turtle1331.github.io/regular-vm/v3",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.9",
     "@testing-library/react": "^11.2.5",
@@ -18,7 +18,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "rm -r ../v3; cp -r build ../v3"
   },
   "eslintConfig": {
     "extends": [
