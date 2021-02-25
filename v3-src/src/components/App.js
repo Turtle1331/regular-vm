@@ -1,8 +1,7 @@
 import {useState} from 'react';
 
-import './App.css';
-import Body from './components/Body.js';
-import TabList from './components/TabList.js';
+import Body from './Body.js';
+import TabList from './TabList.js';
 
 function App() {
   const [tabIndex, setTabIndex] = useState(0);
