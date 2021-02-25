@@ -207,6 +207,7 @@ td:nth-child(3) {
     padding: 5px;
     background-color: #803b74;
     color: inherit;
+    font: inherit;
     text-decoration: none;
     border: 1px solid #ffffff77;
 }
