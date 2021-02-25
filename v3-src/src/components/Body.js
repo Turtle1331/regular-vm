@@ -1,4 +1,5 @@
 import Text from "./Table";
+import Image from "./Image";
 
 function Body(props) {
     return (
@@ -6,7 +7,7 @@ function Body(props) {
             {(() => {
                 switch (props.tabId) {
                     case "Home":      return <Text></Text>;
-                    case "Gallery":   return <h2>Tab 1</h2>;
+                    case "Gallery":   return <Image></Image>;
                     case "Demos":     return <h2>Tab 2</h2>;
                     case "Reference": return <h2>Tab 3</h2>;
                     default: return null;

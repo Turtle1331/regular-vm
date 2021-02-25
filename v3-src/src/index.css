@@ -110,6 +110,10 @@ h1 {
     cursor: pointer;
 }
 
+.overlay.visible {
+  display: block;
+}
+
 .image-overlay, .video-overlay {
     cursor: pointer;
 }
