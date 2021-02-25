@@ -4,20 +4,20 @@ import Tab from './Tab';
 
 function TabList(props) {
     const state = {
-        value: props.tabIndex,
-        set: props.setTabIndex,
+        tabId: props.tabId,
+        set: props.setTabId,
     };
 
     return (
         <div id="navigation">
             <nav>
-                <Tab state={state} index={0}>Home</Tab>
+                <Tab state={state} tabId="Home"></Tab>
                 {" "}
-                <Tab state={state} index={1}>Gallery</Tab>
+                <Tab state={state} tabId="Gallery"></Tab>
                 {" "}
-                <Tab state={state} index={2}>Demos</Tab>
+                <Tab state={state} tabId="Demos"></Tab>
                 {" "}
-                <Tab state={state} index={3}>Reference</Tab>
+                <Tab state={state} tabId="Reference"></Tab>
             </nav>
         </div>
     );

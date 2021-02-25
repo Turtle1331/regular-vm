@@ -1,12 +1,12 @@
 import React from 'react';
 
 function Tab(props) {
-    const onClick = () => props.state.set(props.index);
-    const className = (props.index === props.state.value) ? "current" : "";
+    const onClick = () => props.state.set(props.tabId);
+    const className = (props.tabId === props.state.tabId) ? "current" : "";
 
     return (
         <button className={className} onClick={onClick}>
-            {props.children}
+            {props.tabId}
         </button>
     );
 }
