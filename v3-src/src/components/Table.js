@@ -64,7 +64,6 @@ function Table() {
                 </div>
                 <br />
             </div>
-            <button id="scrollToTop" href="#">Scroll to top</button>
         </div>
     );
 }
