@@ -196,7 +196,7 @@ td:nth-child(3) {
     margin-top: 0.5em;
     font-size: 90%;
     font-style: italic;
-    display: none;
+    display: inline;
 }
 
 .email-success {

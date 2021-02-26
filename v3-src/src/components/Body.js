@@ -1,7 +1,7 @@
 import Table from "./Table";
 import Image from "./Image";
 import Video from "./Video";
-import Text from "./Text";
+import TextEmail from "./TextEmail";
 
 function Body(props) {
     return (
@@ -11,7 +11,7 @@ function Body(props) {
                     case "Home":      return <Table></Table>;
                     case "Gallery":   return <Image></Image>;
                     case "Demos":     return <Video></Video>;
-                    case "Reference": return <Text></Text>;
+                    case "Reference": return <TextEmail></TextEmail>;
                     default: return null;
                 }
             })()}
