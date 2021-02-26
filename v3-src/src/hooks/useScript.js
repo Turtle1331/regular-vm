@@ -1,10 +1,8 @@
-// Based on https://stackoverflow.com/a/34425083
-
-import {useEffect} from 'react';
+import {useEffect} from "react";
 
 const useScript = (url, selector, id) => {
   useEffect(() => {
-    const script = document.createElement('script');
+    const script = document.createElement("script");
     script.id = id;
 
     script.src = url;

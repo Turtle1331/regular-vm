@@ -1,5 +1,3 @@
-import React from 'react';
-
 function Tab(props) {
     const onClick = () => props.state.set(props.tabId);
     const className = (props.tabId === props.state.tabId) ? "current" : "";

@@ -4,6 +4,7 @@ import Email from "./Email";
 function TextEmail() {
     return (
         <div className="contents">
+            <h3>Reference</h3>
             <Text embedded={true}></Text>
             <br />
             <br />

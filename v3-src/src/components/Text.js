@@ -3,7 +3,7 @@ const searchLocations = Object.freeze({
     ext: "https://github.com/regular-vm-extensions/regular-ext/search?q=",
 });
 
-function Text(props) {
+function Text() {
     function onSubmit(event) {
         event.preventDefault();
 
@@ -16,21 +16,21 @@ function Text(props) {
     }
 
     return (
-        <div className={props.embedded ? "" : "contents"}>
-            <h3>Reference</h3>
+        <div>
             <div id="search" className="center">
                 <form onSubmit={onSubmit}>
                     <label>
-                        Search docs:
+                        {"Search docs: "}
                         <input type="text" name="searchQuery" />
                     </label>
                     <label>
+                        {" "}
                         <input type="radio" name="searchLocation" value="spec" defaultChecked="true" />
-                        Specification
+                        {" Specification "}
                     </label>
                     <label>
                         <input type="radio" name="searchLocation" value="ext" />
-                        Extensions
+                        {" Extensions"}
                     </label>
                 </form>
             </div>

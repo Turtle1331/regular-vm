@@ -2,10 +2,10 @@ import {useState} from "react";
 
 import ImageItem from "./ImageItem";
 
-import saagarjha_disassembler from '../assets/saagarjha_disassembler.png';
-import saagarjha_emulator from '../assets/saagarjha_emulator.png';
-import turtle1331_python from '../assets/turtle1331_python.png';
-import turtle1331_wasm from '../assets/turtle1331_wasm.png';
+import saagarjha_disassembler from "../assets/saagarjha_disassembler.png";
+import saagarjha_emulator from "../assets/saagarjha_emulator.png";
+import turtle1331_python from "../assets/turtle1331_python.png";
+import turtle1331_wasm from "../assets/turtle1331_wasm.png";
 
 function Image() {
     const [overlay, setOverlay] = useState(null);

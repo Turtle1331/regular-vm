@@ -6,7 +6,7 @@ const Validation = Object.freeze({
     FAILURE: "failure",
 });
 
-function Email(props) {
+function Email() {
     const [validation, setValidation] = useState(Validation.NONE);
     const [pending, setPending] = useState(Validation.NONE);
 
@@ -45,7 +45,7 @@ function Email(props) {
     );
 
     return (
-        <div className={props.embedded ? "" : "contents"}>
+        <div>
             <div className="center">
                 This site is a work in progress.
                 Stay tuned for updates!
@@ -54,8 +54,7 @@ function Email(props) {
             <div id="email" className="center">
                 <form onSubmit={onSubmit}>
                     <label>
-                        Email address:
-                        {" "}
+                        {"Email address: "}
                         <input type="text" name="email" />
                     </label>
                     <label>
