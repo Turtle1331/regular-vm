@@ -4,8 +4,6 @@ import VideoItem from "./VideoItem";
 import VideoOverlay from "./VideoOverlay";
 
 function Video() {
-    // useScript("https://asciinema.org/a/dDSNmkk9fw3mBvqY2PJoDAcEU.js", "#foo")
-
     const [overlay, setOverlay] = useState(null);
     const state = {
         overlay: overlay,
@@ -15,11 +13,6 @@ function Video() {
     function overlayOnClick(event) {
         event.stopPropagation();
         setOverlay(null);
-        return false;
-    }
-
-    function contentsOnClick(event) {
-        event.stopPropagation();
         return false;
     }
 
@@ -40,7 +33,6 @@ function Video() {
                 <VideoItem state={state} videoId="dDSNmkk9fw3mBvqY2PJoDAcEU">regular-vm-wasm emulator:</VideoItem>
             </div>
             <div id="videoOverlay" className={overlayClassName} onClick={overlayOnClick}>
-                <div className="loading-text">Loading...</div>
                 {overlayContents}
             </div>
         </div>

@@ -5,6 +5,7 @@ function VideoOverlay(props) {
 
     return (
         <div className="overlay-content" onClick={props.onClick}>
+            <div className="loading-text">Loading...</div>
         </div>
     );
 }

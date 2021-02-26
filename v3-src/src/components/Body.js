@@ -1,4 +1,4 @@
-import Text from "./Table";
+import Table from "./Table";
 import Image from "./Image";
 import Video from "./Video";
 
@@ -7,7 +7,7 @@ function Body(props) {
         <div className="Body">
             {(() => {
                 switch (props.tabId) {
-                    case "Home":      return <Text></Text>;
+                    case "Home":      return <Table></Table>;
                     case "Gallery":   return <Image></Image>;
                     case "Demos":     return <Video></Video>;
                     case "Reference": return <h2>Tab 3</h2>;
