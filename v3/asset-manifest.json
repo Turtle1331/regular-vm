@@ -1,23 +1,26 @@
 {
   "files": {
-    "main.css": "/regular-vm/v3/static/css/main.8c8b27cf.chunk.css",
-    "main.js": "/regular-vm/v3/static/js/main.57324510.chunk.js",
-    "main.js.map": "/regular-vm/v3/static/js/main.57324510.chunk.js.map",
+    "main.css": "/regular-vm/v3/static/css/main.c42cb5c4.chunk.css",
+    "main.js": "/regular-vm/v3/static/js/main.68c6b103.chunk.js",
+    "main.js.map": "/regular-vm/v3/static/js/main.68c6b103.chunk.js.map",
     "runtime-main.js": "/regular-vm/v3/static/js/runtime-main.c86edb2b.js",
     "runtime-main.js.map": "/regular-vm/v3/static/js/runtime-main.c86edb2b.js.map",
-    "static/js/2.81c444c2.chunk.js": "/regular-vm/v3/static/js/2.81c444c2.chunk.js",
-    "static/js/2.81c444c2.chunk.js.map": "/regular-vm/v3/static/js/2.81c444c2.chunk.js.map",
+    "static/js/2.085659d5.chunk.js": "/regular-vm/v3/static/js/2.085659d5.chunk.js",
+    "static/js/2.085659d5.chunk.js.map": "/regular-vm/v3/static/js/2.085659d5.chunk.js.map",
     "static/js/3.4e24003b.chunk.js": "/regular-vm/v3/static/js/3.4e24003b.chunk.js",
     "static/js/3.4e24003b.chunk.js.map": "/regular-vm/v3/static/js/3.4e24003b.chunk.js.map",
     "index.html": "/regular-vm/v3/index.html",
-    "static/css/main.8c8b27cf.chunk.css.map": "/regular-vm/v3/static/css/main.8c8b27cf.chunk.css.map",
-    "static/js/2.81c444c2.chunk.js.LICENSE.txt": "/regular-vm/v3/static/js/2.81c444c2.chunk.js.LICENSE.txt",
-    "static/media/logo.6ce24c58.svg": "/regular-vm/v3/static/media/logo.6ce24c58.svg"
+    "static/css/main.c42cb5c4.chunk.css.map": "/regular-vm/v3/static/css/main.c42cb5c4.chunk.css.map",
+    "static/js/2.085659d5.chunk.js.LICENSE.txt": "/regular-vm/v3/static/js/2.085659d5.chunk.js.LICENSE.txt",
+    "static/media/saagarjha_disassembler.fe9cab77.png": "/regular-vm/v3/static/media/saagarjha_disassembler.fe9cab77.png",
+    "static/media/saagarjha_emulator.239f83e3.png": "/regular-vm/v3/static/media/saagarjha_emulator.239f83e3.png",
+    "static/media/turtle1331_python.4136383e.png": "/regular-vm/v3/static/media/turtle1331_python.4136383e.png",
+    "static/media/turtle1331_wasm.cdd1a50d.png": "/regular-vm/v3/static/media/turtle1331_wasm.cdd1a50d.png"
   },
   "entrypoints": [
     "static/js/runtime-main.c86edb2b.js",
-    "static/js/2.81c444c2.chunk.js",
-    "static/css/main.8c8b27cf.chunk.css",
-    "static/js/main.57324510.chunk.js"
+    "static/js/2.085659d5.chunk.js",
+    "static/css/main.c42cb5c4.chunk.css",
+    "static/js/main.68c6b103.chunk.js"
   ]
 }
