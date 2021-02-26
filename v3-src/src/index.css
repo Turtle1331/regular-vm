@@ -134,6 +134,10 @@ h1 {
     cursor: default;
 }
 
+#videoOverlay .overlay-content {
+    cursor: default;
+}
+
 .overlay img.overlay-content {
     width: 60vw;
 }
